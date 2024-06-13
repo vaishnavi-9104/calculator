@@ -1,0 +1,81 @@
+body
+{
+background-color: black;
+}
+*
+{
+    text-align:center;
+}
+h1{
+    color:aliceblue;
+}
+.main
+{
+    margin:auto;
+    margin-top:20px;
+    height:600px;
+    width:35%;
+    background-color:rgb(63, 63, 181);
+    color:rgb(201, 201, 247);
+    border-radius:20px;
+    padding:30px;
+    }
+    .grid1
+    {
+        display:grid;
+        grid-template-rows: auto auto;
+    }
+    .val
+    {
+        margin:auto;
+        height:70px;
+        width:90%;
+    background-color:rgb(200, 200, 245);
+    color:black;
+    border-radius:5px;
+    }
+    .grid-container
+    {
+        border-collapse: collapse;
+        margin:40px auto;
+        display:grid;
+        grid-template-columns:auto auto auto auto;
+        text-align: center;
+        }
+        .grid-item{
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            font-size: 63px;
+            border: 10px solid rgb(63, 63, 181);cc;
+            cursor: pointer;
+            background-color:rgba(135, 135, 241, 0.687);
+            margin:5px;
+}
+.grid-item:hover {
+    background-color: #e0e0e0;
+    color:black;
+}
+#display
+{
+    text-align: right;
+    color:black;
+    font-weight: 700;
+    font-size:60px;;
+    padding-right: 10px;
+    font-family:'Roboto', sans-serif ;
+}
+.res
+{
+    background-color:rgb(3, 3, 254);
+    border-radius:50%;
+}
+.a
+{
+    font-size:50px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    color:rgb(33, 60, 235);
+
+}

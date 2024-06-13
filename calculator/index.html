@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="index.js"></script>
+    <h1>Calculator</h1>
+    <div class="main grid1">
+        <div class="val" id="display"></div>
+        <div class="grid-container">
+            <div class="grid-item a" onclick="appendclear('AC')">AC</div>
+            <div class="grid-item a" onclick="appendclear('C')">C</div>
+            <div class="grid-item a" onclick="appendValue1('%')">%</div>
+            <div class="grid-item a" onclick="appendValue1('/')">/</div>
+            <div class="grid-item" onclick="appendValue(1)">1</div>
+            <div class="grid-item" onclick="appendValue(2)">2</div>
+            <div class="grid-item" onclick="appendValue(3)">3</div>
+            <div class="grid-item a" onclick="appendValue1('+')">+</div>
+            <div class="grid-item" onclick="appendValue(4)">4</div>
+            <div class="grid-item" onclick="appendValue(5)">5</div>
+            <div class="grid-item" onclick="appendValue(6)">6</div>
+            <div class="grid-item a" onclick="appendValue1('-')">-</div>
+            <div class="grid-item" onclick="appendValue(7)">7</div>
+            <div class="grid-item" onclick="appendValue(8)">8</div>
+            <div class="grid-item" onclick="appendValue(9)">9</div>
+            <div class="grid-item a" onclick="appendValue1('*')">*</div>
+            <div class="grid-item" onclick="appendValue('00')">00</div>
+            <div class="grid-item" onclick="appendValue(0)">0</div>
+            <div class="grid-item a" onclick="appendDecimal('.')">.</div>
+            
+            <div class="grid-item res" onclick="calculateResult()">=</div>
+          </div>
+    </div>
+</body>
+</html>
